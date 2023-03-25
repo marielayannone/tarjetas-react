@@ -17,6 +17,7 @@ const Tarjeta = ({producto}) => {
          <TarjetaPrecio precio = { producto.precio}/>
          <TarjetaBoton/>
          
+         
          </div>
         
          

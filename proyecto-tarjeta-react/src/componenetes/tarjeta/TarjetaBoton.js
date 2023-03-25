@@ -1,13 +1,18 @@
 import React from 'react'
 
-const TarjetaBoton=()=> {
+const TarjetaBoton=(comprar)=> {
     return(
        
-        <button className="boton">Comprar</button>
+        <button onClick = {() => alert("Agregado al carrito")} className="boton">Comprar</button>
         
     )
-  
+
 }
+
+  
+  
+  
+  
 
 export default TarjetaBoton
 
